@@ -68,7 +68,7 @@ h1, h2, h3, h4, h5 {
 .container {
 	width: 900px;
 	margin: auto;
-	border: 1px solid red;
+	/* border: 1px solid red; */
 }
 
 .container a{
@@ -82,26 +82,75 @@ header .box1, .box2 {
 	font-size: 100px;
 	align-content: center;
 	display: inline-block;
-	border: 1px solid black;
+	/* border: 1px solid black; */
 }
 
 .bottomContent {
 	
-	border: 1px solid black;
+	/* border: 1px solid black; */
 	align-content: center;
 	display: inline-block;
 }
 
 .topcontent {
 	
-	border: 1px solid black;
+	/* border: 1px solid black; */
 	align-content: center;
 	display: inline-block;
 }
 
-.boxes {
+.boxes1 {
 	
-	border: 1px solid black;
+	width: 50%;
+	/* border: 1px solid black; */
+	align-content: center;
+	display: block;
+	float: left;
+}
+
+.boxes2 {
+	
+	width: 50%;
+	/* border: 1px solid black; */
+	align-content: center;
+	display: block;
+	float: right;
+}
+
+.boxes3 {
+	
+	width: 30%;
+	/* border: 1px solid black; */
+	align-content: center;
+	display: block;
+	float: left;
+}
+
+.boxes4 {
+	
+	width: 30%;
+	/* border: 1px solid black; */
 	align-content: center;
 	display: inline-block;
+	margin-right: 30px;
+	
 }
+
+.boxes5 {
+	
+	width: 30%;
+	/* border: 1px solid black; */
+	align-content: center;
+	display: block;
+	float: right;
+}
+
+.contact {
+	margin-top: 50px;
+}
+
+.contact p {
+	padding:15px 0 0 ;
+}
+
+</body>
